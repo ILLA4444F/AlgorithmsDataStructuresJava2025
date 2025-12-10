@@ -1,7 +1,18 @@
-//Варіант IV
-
+//Варіант 4
 //Управління інвентарем магазину
+import java.util.HashMap;
 
+public class Main {
+
+    static class Product {
+        String productCode;
+        String name;
+        int quantity;
+
+        public Product(String productCode, String name, int quantity) {
+            this.productCode = productCode;
+            this.name = name;
+            this.quantity = quantity;
         }
 
         @Override
@@ -33,9 +44,7 @@
     }
 
     public static void main(String[] args) {
-
         Inventory inventory = new Inventory();
-
         inventory.addProduct(new Product("A01", "Телефон", 10));
         inventory.addProduct(new Product("B15", "Навушники", 25));
         inventory.addProduct(new Product("C33", "Ноутбук", 5));

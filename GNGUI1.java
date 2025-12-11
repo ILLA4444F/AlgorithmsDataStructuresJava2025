@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-public class GNGUI {
+public class GNGUI1 {
 private int secret;
 private int low = 1;
 private int high = 100;
@@ -14,7 +14,7 @@ private JLabel rangeLabel;
 private JLabel attemptsLabel;
 // HINT
 private JLabel hintLabel;
-public GNGUI() {
+public GNGUI1() {
 secret = (int)(Math.random() * 100) + 1;
 frame = new JFrame("Вгадай число! ??");
 frame.setSize(400, 300);

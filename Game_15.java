@@ -156,7 +156,7 @@ high = Math.min(high, guess - 1);
 
 rangeLabel.setText("Діапазон чисел: [" + low + " — " + high + "]");
 
-// HINT SYSTEM
+
 
 giveHint();
 
@@ -166,7 +166,7 @@ inputField.requestFocus();
 
 }
 
-// HINT
+
 
 private void giveHint() {
 

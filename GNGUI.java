@@ -16,7 +16,7 @@ private JLabel attemptsLabel;
 private JLabel hintLabel;
 public GNGUI() {
 secret = (int)(Math.random() * 100) + 1;
-frame = new JFrame("Вгадай число! 🎯");
+frame = new JFrame("Вгадай число!:) ");
 frame.setSize(400, 300);
 
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -126,7 +126,7 @@ attemptsLabel.setText("Спроб: " + attempts);
 
 if (guess == secret) {
 
-messageLabel.setText("🎉 Вітаю! Ти вгадав число!");
+messageLabel.setText(":) Вітаю! Ти вгадав число!");
 
 messageLabel.setForeground(Color.GREEN);
 
@@ -173,7 +173,7 @@ private void giveHint() {
 int range = high - low;
 if (range <= 3) {
 
-hintLabel.setText("Ти дуже близько! 🔥");
+hintLabel.setText("Ти дуже близько! :о");
 
 } else if (range <= 10) {
 
